@@ -1,0 +1,1 @@
+ SELECT first_name, age, gender, title, city, state FROM persons WHERE((title = 'Dr') AND (city = 'West Palm Beach') AND (gender = 'Female')) OR ((title = 'Rev') AND (city = 'Phoenix') AND (gender = 'Male'));
