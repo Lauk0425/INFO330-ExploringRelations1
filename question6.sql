@@ -1,0 +1,1 @@
+SELECT first_name, city, email, substr(email, instr(email, '@') + 1) AS email_domain FROM persons WHERE city = 'Seattle';
